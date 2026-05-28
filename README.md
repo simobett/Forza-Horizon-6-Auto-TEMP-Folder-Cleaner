@@ -1,4 +1,4 @@
-# Forza 6 Temp Cleaner
+# Forza 6 %Temp% Folder Cleaner
 
 A tiny Windows helper that waits for **Forza Horizon 6** to close, then cleans the current user's `%TEMP%` folder.
 
