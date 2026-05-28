@@ -4,6 +4,12 @@ A tiny Windows helper that waits for **Forza Horizon 6** to close, then cleans t
 
 It runs in the background, writes a log, and skips files Windows still has locked.
 
+## Who It Is For
+
+This tool can be useful for any Forza Horizon 6 player who wants `%TEMP%` cleaned automatically after closing the game.
+
+It was originally made with AMD RX 580 users in mind, especially players trying to start Forza Horizon 6 and running into the `FH01` error.
+
 ## What It Does
 
 - Watches for `ForzaHorizon6.exe`
