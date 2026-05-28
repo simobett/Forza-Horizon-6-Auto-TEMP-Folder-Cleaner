@@ -32,7 +32,7 @@ It was originally made with AMD RX 580 users in mind, especially players trying 
 | --- | --- |
 | `start-forza6-temp-cleaner-hidden.vbs` | Main file to double-click. Starts the cleaner hidden in the background. |
 | `clean-temp-after-forza.bat` | Worker script that watches Forza and cleans `%TEMP%`. |
-| `forza6-temp-cleaner.log` | Created after running. Shows what happened. Not meant to be committed. |
+| `forza6-temp-cleaner.log` | Created after running. Shows what happened. |
 
 ## How To Use
 
