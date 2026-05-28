@@ -26,7 +26,6 @@ It runs in the background, writes a log, and skips files Windows still has locke
 | --- | --- |
 | `start-forza6-temp-cleaner-hidden.vbs` | Main file to double-click. Starts the cleaner hidden in the background. |
 | `clean-temp-after-forza.bat` | Worker script that watches Forza and cleans `%TEMP%`. |
-| `publish-to-github.bat` | Optional helper for publishing this folder to a GitHub repo after Git is installed. |
 | `forza6-temp-cleaner.log` | Created after running. Shows what happened. Not meant to be committed. |
 
 ## How To Use
@@ -100,11 +99,3 @@ git push -u origin main
 ```
 
 Replace `YOUR_USERNAME` with your GitHub username.
-
-Or, after creating an empty GitHub repo, run:
-
-```bat
-publish-to-github.bat https://github.com/YOUR_USERNAME/forza6-temp-cleaner.git
-```
-
-If GitHub asks you to sign in while pushing, follow the browser login prompt or use a GitHub personal access token when prompted for a password.
