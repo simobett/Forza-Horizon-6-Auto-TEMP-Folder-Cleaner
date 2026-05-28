@@ -71,37 +71,3 @@ If you want to test it with a visible terminal, run:
 ```bat
 clean-temp-after-forza.bat --worker
 ```
-
-## Troubleshooting
-
-If the log stays on `Waiting for ForzaHorizon6.exe to run`, the game's process name may be different on your system.
-
-Check Task Manager while Forza Horizon 6 is running:
-
-1. Open Task Manager.
-2. Go to the `Details` tab.
-3. Find the Forza process.
-4. If the name is not `ForzaHorizon6.exe`, edit this line in `clean-temp-after-forza.bat`:
-
-```bat
-set "GAME_EXE=ForzaHorizon6.exe"
-```
-
-## Publish To GitHub
-
-Install Git first if `git` is not available in your terminal:
-
-- [Git for Windows](https://git-scm.com/download/win)
-
-Then run these commands in this folder:
-
-```bat
-git init
-git add README.md LICENSE .gitignore clean-temp-after-forza.bat start-forza6-temp-cleaner-hidden.vbs
-git commit -m "Initial Forza 6 temp cleaner"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/forza6-temp-cleaner.git
-git push -u origin main
-```
-
-Replace `YOUR_USERNAME` with your GitHub username.
